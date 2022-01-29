@@ -11,14 +11,13 @@ Primarily what this means is I added heat sets to the top of some mounts and add
 Homing does need to be modified to work with this modification. I am using Homing override to ensure that I home x and they move to a location away from the corner before I home the y axis.
 
 # READ FIRST: THIS IS A CHALLENGING MOD. 
-
-"This mod may require significant individualization. Evaluate your own build and select your parts as needed." --Corvidbuild V2
-This is a excellent description. 
+*"This mod may require significant individualization. Evaluate your own build and select your parts as needed." --Corvidbuild V2
+This is an excellent description.*
 
 I have a mix of modified parts and unmodified parts. 
-Primarily you will need the modified Universal face and modified corexy back. The modfied face hase 4 holes to mount to the mgn 12 and 2 holes for heat sets to mount the hotend adapters. The modified universal plate should work with all popular hot end mounts these are un-modified (please visit the EVA site to get the files mount to fit your particular hot end.)I initially had the belts clamped with the mgn12 while effective you need 5 arms to get it lined up correctly. So I have added loops and secure the belts with zip ties.
+Primarily you will need the modified Universal face and modified corexy back. The modified face has 4 holes to mount to the mgn 12 and 2 holes for heat sets to mount the hotend adapters. The modified universal plate should work with all popular hot end mounts these are un-modified (please visit the EVA site to get the files mount to fit your particular hot end.)I initially had the belts clamped with the mgn12 while effective you need 5 arms to get it lined up correctly. So I have added loops and secure the belts with zip ties.
 
-The bottom is modified with heat sets for klicky if wanted.
+The bottom is modified with heat sets for custom side mounted klicky mount if wanted.
 
 The tops for several extruders are modified to work with this. LGX and LGX lite modified top as well as Orbiter 1.5/2.0 modified top and BMG modified top are included in the files. 
 
@@ -30,6 +29,7 @@ I have a thinner versions of the rear universal wire mount.
 All screw sizes are the same as stock with the exception of the through screws which need at least 5 extra mm to reach.
 
 ## THIS IS A CHALLENGING conversion please do not take this lightly.
+
 
 # Configuration Changes
 
