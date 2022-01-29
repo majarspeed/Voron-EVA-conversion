@@ -1,5 +1,6 @@
-![fusion](https://github.com/majarspeed/Voron-EVA-conversion/raw/main/Pics/EVA%20for%20Voron.JPG "EVA on Voron")
 ![Orbiter](https://github.com/majarspeed/Voron-EVA-conversion/blob/main/Pics/Orbiter_EVA.jpeg "EVA on Voron")
+![fusion](https://github.com/majarspeed/Voron-EVA-conversion/raw/main/Pics/EVA%20for%20Voron.JPG "EVA on Voron")
+
 This is a repository for the CAD and STL for the EVA to Voron conversion. 
 
 This is not an original work. All of this is the work of the EVA team and Voron Design. I only made minor modifications to allow the use of the excellent EVA hotend system. Please visit EVA at https://main.eva-3d.page/ and Voron Design https://vorondesign.com/ and consider suppoting both of these worthy projects. 
