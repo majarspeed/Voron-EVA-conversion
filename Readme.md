@@ -16,10 +16,20 @@ Homing does need to be modified to work with this modification. I am using Homin
 This is a excellent description. 
 
 I have a mix of modified parts and unmodified parts. 
-Primarily you will need the modified Universal face and modified corexy back. The bottom is modified with heat sets for klicky if wanted. The tops for several extruders are modified to work with this. LGX and LGX lite modified top as well as Orbiter 1.5/2.0 modified top and BMG modified top are included in the files. The modified universal plate should work with all popular hot end mounts these are un-modified (please visit the EVA site to get the files mount to fit your particular hot end.) I initially had the belts clamped with the mgn12 while effective you need 5 arms to get it lined up correctly. So I have added loops and secure the belts with zip ties. There is an adapter to turn the klicky dock sideways and is based on the current version of klicky probe v2. The x end stop is located on the carriage and is integrated with a new part I created called universal spacer. And I have a thinner versions of the rear universal wire mount. All screw sizes are the same as stock with the exception of the through screws which need at least 5 extra mm to reach.
+Primarily you will need the modified Universal face and modified corexy back. The modfied face hase 4 holes to mount to the mgn 12 and 2 holes for heat sets to mount the hotend adapters. The modified universal plate should work with all popular hot end mounts these are un-modified (please visit the EVA site to get the files mount to fit your particular hot end.)I initially had the belts clamped with the mgn12 while effective you need 5 arms to get it lined up correctly. So I have added loops and secure the belts with zip ties.
+
+The bottom is modified with heat sets for klicky if wanted.
+
+The tops for several extruders are modified to work with this. LGX and LGX lite modified top as well as Orbiter 1.5/2.0 modified top and BMG modified top are included in the files. 
+
+There is an adapter to turn the klicky dock sideways and is based on the current version of klicky probe v2.
+The x end stop is located on the carriage and is integrated with a new part I created called universal spacer.
+
+I have a thinner versions of the rear universal wire mount.
+
+All screw sizes are the same as stock with the exception of the through screws which need at least 5 extra mm to reach.
 
 ## THIS IS A CHALLENGING conversion please do not take this lightly.
-
 
 # Configuration Changes
 
