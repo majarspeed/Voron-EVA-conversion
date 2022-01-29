@@ -2,11 +2,23 @@
 
 This is a repository for the CAD and STL for the EVA to Voron conversion. 
 
-This is not an original work. All of this is the work of the EVA team and Voron Design. I only made minor modifications to allow the use of the excellent EVA hotend system. Please visit them at https://main.eva-3d.page/ 
+This is not an original work. All of this is the work of the EVA team and Voron Design. I only made minor modifications to allow the use of the excellent EVA hotend system. Please visit EVA at https://main.eva-3d.page/ and Voron Design https://vorondesign.com/ and consider suppoting both of these worthy projects. 
 
 The goal was to make as little change to either system as possible. So primarily I wanted to not have to redesign the belt pathing on the Voron or relocate the rail. And to minimize the changes to the EVA and retain as much as I could of the EVA compatibility. 
+
 Primarily what this means is I added heat sets to the top of some mounts and added a spacer/endstop with mounting holes for the faceplate to the MGN12. 
-Homing does need to be modified to work with this modification. I am using Homing override to ensure that I home x and they move to a location away from the corner before I home the y axis. 
+Homing does need to be modified to work with this modification. I am using Homing override to ensure that I home x and they move to a location away from the corner before I home the y axis.
+
+# READ FIRST: THIS IS A CHALLENGING MOD. 
+
+"This mod may require significant individualization. Evaluate your own build and select your parts as needed." --Corvidbuild V2
+This is a excellent description. 
+
+I have a mix of modified parts and unmodified parts. 
+Primarily you will need the modified Universal face and modified corexy back. The bottom is modified with heat sets for klicky if wanted. The tops for several extruders are modified to work with this. LGX and LGX lite modified top as well as Orbiter 1.5/2.0 modified top and BMG modified top are included in the files. The modified universal plate should work with all popular hot end mounts these are un-modified (please visit the EVA site to get the files mount to fit your particular hot end.) I initially had the belts clamped with the mgn12 while effective you need 5 arms to get it lined up correctly. So I have added loops and secure the belts with zip ties. There is an adapter to turn the klicky dock sideways and is based on the current version of klicky probe v2. The x end stop is located on the carriage and is integrated with a new part I created called universal spacer. And I have a thinner versions of the rear universal wire mount. All screw sizes are the same as stock with the exception of the through screws which need at least 5 extra mm to reach.
+
+## THIS IS A CHALLENGING conversion please do not take this lightly.
+
 
 # Configuration Changes
 
