@@ -10,6 +10,13 @@ The goal was to make as little change to either system as possible. So primarily
 Primarily what this means is I added heat sets to the top of some mounts and added a spacer/endstop with mounting holes for the faceplate to the MGN12. 
 Homing does need to be modified to work with this modification. I am using Homing override to ensure that I home x and they move to a location away from the corner before I home the y axis.
 
+# UPDATE Voron EVA conversion gets better Klicky
+I have created a klicky duct that is based off of Whooppingpochard from the Voron discords design. And adapted it to the trihorn ducts. This is a much easier method and allows the use of the stock klicky and auto z configuration. This makes this a much easier conversion overall. Will retain the previous instructions in the klicky readme if you would still prefer to use this with that configuration. 
+
+Also adding a user mod for some user based alternative parts. 
+Adding a clamp style multipart uface desigh thanks to DoubleT ont he Voron Discord. 
+
+
 # READ FIRST: THIS IS A CHALLENGING MOD. 
 *"This mod may require significant individualization. Evaluate your own build and select your parts as needed." --Corvidbuild V2
 This is an excellent description.*
@@ -21,7 +28,6 @@ The bottom is modified with heat sets for custom side mounted klicky mount if wa
 
 The tops for several extruders are modified to work with this. LGX and LGX lite modified top as well as Orbiter 1.5/2.0 modified top and BMG modified top are included in the files. 
 
-There is an adapter to turn the klicky dock sideways and is based on the current version of klicky probe v2.
 The x end stop is located on the carriage and is integrated with a new part I created called universal spacer.
 
 I have a thinner versions of the rear universal wire mount.
@@ -57,51 +63,7 @@ gcode:
    G0 X163 Y260 Z30 F7200 
    ```
   
-## Probe
 
-### Probe offset 
-```
-x_offset: -24
-y_offset: 30
-```
-### Mesh max 
-Needs to be shrunk as it looks at the nozzle location not the offset. 
-```
-mesh_max: 250,260 
-```
-## Z-tilt
-And the Z-tilt will need to be adjusted for your particular bed. My bed is not a standard so would not be helpful. Just keep in mind that the probe offset is not used when setting these. 
-# Auto-z
-This I am looking to improve 
-But currently this is the changes I used to make this work in my configuration. 
-These are the ADDTIONAL besides the normal changes to configure auto z. 
-The below are found in the klicky-probe-for_VT.cfg on my configuration. 
-### Probe Entry 
-The below needs to be modified to change where it starts the dock and undock from. 
-
-```
-# Probe entry location
-        #set the below location to 20 mm to the right of the dock location. 
-         G0 X 143 Y 275 F3600
-        #G0 X{Dx|int - Ax|int} Y{Dy|int - Ay|int} F{St}
-        #{% if Dz != -128 %}
-        #    G0 Z{Dz|int - Az|int} F{Sd}
-        #{% endif %}
-```
-
-### Dock move
-Below needs to be added:
-```
-#dock move
-Variable_dockmove_x:             0
-Variable_dockmove_y:           -40
-Variable_dockmove_z:             0
-
-#attach move
-Variable_attachmove_x:         -40
-Variable_attachmove_y:           0
-Variable_attachmove_z:           0
-```   
    
    
 
