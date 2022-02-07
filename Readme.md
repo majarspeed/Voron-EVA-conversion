@@ -10,12 +10,23 @@ The goal was to make as little change to either system as possible. So primarily
 Primarily what this means is I added heat sets to the top of some mounts and added a spacer/endstop with mounting holes for the faceplate to the MGN12. 
 Homing does need to be modified to work with this modification. I am using Homing override to ensure that I home x and they move to a location away from the corner before I home the y axis.
 
-# UPDATE Voron EVA conversion gets better Klicky
+# Update 2 
+
+Added some addtional spacing on the housing. Some was just a little to close. 
+Added ad spacer using a df2 microswitch. 
+Added sherpa mini top. 
+
+Began testing of a MGN 9 variant. 
+
+Some have asked for a weight comparsion. Weighed a EVA with Sherpa top all parts except hotend and extruder. 124 grams 
+
+
+# UPDATE 1 Voron EVA conversion gets better Klicky
 I have created a klicky duct that is based off of Whooppingpochard from the Voron discords design. And adapted it to the trihorn ducts. This is a much easier method and allows the use of the stock klicky and auto z configuration. This makes this a much easier conversion overall. Will retain the previous instructions in the klicky readme if you would still prefer to use this with that configuration. 
 
 Also adding a user mod for some user based alternative parts. 
 Adding a clamp style multipart uface desigh thanks to DoubleT ont he Voron Discord. 
-
+ 
 
 # READ FIRST: THIS IS A CHALLENGING MOD. 
 *"This mod may require significant individualization. Evaluate your own build and select your parts as needed." --Corvidbuild V2
